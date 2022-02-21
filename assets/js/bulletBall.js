@@ -15,13 +15,15 @@ class bulletBall {
         this.image.onload = () => {
             this.ImageLoaded = true;
         }
-        this.image.src ='../../assets/img/'+this.color+'.png';
+        this.image.src ='../../assets/img/blue.png';
     }
     draw() {
         if (!this.ImageLoaded ) {
             return;
         }
-        this.game.context.drawImage(this.image,this.x-BALL_RADIUS,thi.y-BALL_RADIUS);
+        this.game.context.drawImage(this.image,180,180);
+        // var ctx = document.getElementById("myCanvas").getContext("2d");
+        // ctx.drawImage(this.image, 10, 10);
       
     }
     getRandomColor(){
