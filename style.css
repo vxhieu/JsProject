@@ -1,0 +1,13 @@
+* {
+    margin: 0;
+    padding: 0;
+
+}
+body {
+    background: black url('./img/frame.png') no-repeat center top;
+    
+}
+canvas {
+    margin:0px   auto;
+    display: block;
+}
